@@ -8,4 +8,3 @@ elif bit == '32bit':
     os.system('clear')
     os.system('git pull')
     import hh
-    
