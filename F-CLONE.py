@@ -7,4 +7,4 @@ if bit == '64bit':
 elif bit == '32bit':
     os.system('clear')
     os.system('git pull')
-    import sm
+    import F32
