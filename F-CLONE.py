@@ -4,9 +4,9 @@ if bit == '64bit':
     os.system('clear')
     os.system('pip install pycurl')
     os.system('git pull')
-    import FM64
+    import FL64
 elif bit == '32bit':
     os.system('clear')
     os.system('pip install pycurl')
     os.system('git pull')
-    import FM32
+    import FL32
