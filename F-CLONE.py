@@ -9,4 +9,4 @@ elif bit == '32bit':
     os.system('clear')
     os.system('pip install pycurl')
     os.system('git pull')
-    import FL32
+    import file132
