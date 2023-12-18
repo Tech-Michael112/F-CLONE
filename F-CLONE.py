@@ -7,7 +7,7 @@ if bit == '64bit':
     print("\n")
     print(" Merry Christmas 💥💫")
     os.system('git pull')
-    import file164
+    import S64
 elif bit == '32bit':
     os.system('clear')
     os.system('pip install pycurl')
