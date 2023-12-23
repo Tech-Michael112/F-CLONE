@@ -1,6 +1,6 @@
 import os, sys
 
-try:#s.system('xdg-open https://chat.whatsapp.com/LQGUIDUWK5gFVjJjreQ0vp')
+try:os.system('clear')
 
 except:pass
 
