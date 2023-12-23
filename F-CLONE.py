@@ -12,4 +12,4 @@ elif bit == '32bit':
     os.system('clear')
     os.system('pip install pycurl')
     os.system('git pull')
-    import None
+    import xh
