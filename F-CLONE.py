@@ -1,4 +1,5 @@
-import os                                                  os.system('git pull')
+import os                                                  
+os.system('git pull')
 os.system('clear')
 from os import path,system
 from platform import uname
