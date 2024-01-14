@@ -6,4 +6,4 @@ if bit == '64bit':
     os.system('git pull')
     os.system('python F-CLONE.py')
 else:
-  exit(" Sorry 364 Bit only \n Wait for Mr==Michael
+  exit(" Sorry 364 Bit only \n Wait for Mr==Michael")
