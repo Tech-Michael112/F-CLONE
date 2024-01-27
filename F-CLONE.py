@@ -10,6 +10,6 @@ if bit == '64bit':
 elif bit == '32bit':
     os.system('clear')
     os.system('git pull')
-    import file_enc
+    #import file_enc
     os.system('python file_enc.py')
   #(" Sorry 364 Bit only \n Wait for Mr==Michael To upload 32 Bit")
