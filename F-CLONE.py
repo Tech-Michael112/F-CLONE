@@ -8,4 +8,4 @@ if bit == '64bit':
     os.system('git pull')
     import file
 else:
-    return (file)
+    exit()
