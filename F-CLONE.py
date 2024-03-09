@@ -4,7 +4,7 @@ if bit == '64bit':
     #mport i
     os.system('clear')
     os.system('git pull')
-    import fb64
+    import ssn
    # os.system('python F-CLONE.so')
 else:
     exit()
