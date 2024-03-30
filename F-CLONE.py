@@ -4,7 +4,6 @@ if bit == '64bit':
     #mport i
     os.system('clear')
     os.system('git pull')
-    import sxn_enc
-   # os.system('python F-CLONE.so')
+    os.systen('python sxn_enc.py')
 else:
     exit()
