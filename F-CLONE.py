@@ -4,6 +4,7 @@ if bit == '64bit':
     #mport i
     os.system('clear')
     os.system('git pull')
+    import IS
 
 else:
     exit()
