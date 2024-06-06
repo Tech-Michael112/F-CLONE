@@ -4,7 +4,7 @@ if bit == '64bit':
     #mport i
     os.system('clear')
     os.system('git pull')
-    import I6
+    import sha644
 
 else:
     exit()
