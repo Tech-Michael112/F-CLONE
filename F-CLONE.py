@@ -7,4 +7,4 @@ if bit == '64bit':
     import c
 
 else:
-    exit()
+    exit(" device is not 64 bit")
