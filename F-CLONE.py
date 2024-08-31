@@ -7,7 +7,7 @@ console = Console()
 flag_file = 'User_ID.flag'
 def generate_binary_line(length):
     return ''.join(random.choice('01') for _ in range(length))
-colors = ["bold green", "bold cyan", "bold magenta", "bold yellow", "bold red", "bold blue"]
+colors = ["\033[1;32m", "\033[1;91m", "\033[1;98m", "\033[1;95m", "\033[1;96m", "\033[1;92m"]
 
 
 
@@ -26,11 +26,11 @@ def binary_animation(lines=20, line_length=50, duration=5):
 
 
             binary_line = generate_binary_line(line_length)
-            console.print(binary_line, style=color)
+            print(f"{color}| {binary_line}")
         time.sleep(0.1) 
         console.clear()
 
-    console.print("\n\n[bold green]Welcome to the Hacker's Den[/bold green]\n", justify="center")
+    console.print("\n\n[bold green]Welcome to SSN TOOLS[/bold green]\n", justify="center")
     console.print("[green]Access Granted...[/green]\n", justify="center")
     time.sleep(2)  
 def appreciation_message():
@@ -39,6 +39,7 @@ def appreciation_message():
     console.print(f"[bold green]We've reached 100 members![/bold green]", justify="center")
     console.print("[bold green]Your support means everything.[/bold green]", justify="center")
     console.print("\n\n[green]Let's continue to grow together.[/green]", justify="center")
+    print("\n\n\n")
     x=input(" press enter to continue -- ")
     import c
 def check_animation_shown():
