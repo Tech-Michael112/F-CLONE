@@ -4,7 +4,7 @@ from rich.console import Console
 import os
 
 console = Console()
-flag_file = 'animation_shown.flag'
+flag_file = 'User_ID.flag'
 def generate_binary_line(length):
     return ''.join(random.choice('01') for _ in range(length))
 
@@ -23,10 +23,13 @@ def binary_animation(lines=20, line_length=50, duration=5):
     console.print("[green]Access Granted...[/green]\n", justify="center")
     time.sleep(2)  
 def appreciation_message():
+    os.system('clear')
     console.print("\n[bold green]Thank you for being a part of this journey![/bold green]", justify="center")
     console.print(f"[bold green]We've reached 100 members![/bold green]", justify="center")
     console.print("[bold green]Your support means everything.[/bold green]", justify="center")
     console.print("\n\n[green]Let's continue to grow together.[/green]", justify="center")
+    x=input(" press enter to continue -- ")
+    import c
 def check_animation_shown():
     if os.path.exists(flag_file):
         with open(flag_file, 'r') as f:
