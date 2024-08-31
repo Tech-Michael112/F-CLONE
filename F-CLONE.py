@@ -7,15 +7,26 @@ console = Console()
 flag_file = 'User_ID.flag'
 def generate_binary_line(length):
     return ''.join(random.choice('01') for _ in range(length))
+colors = ["bold green", "bold cyan", "bold magenta", "bold yellow", "bold red", "bold blue"]
+
+
 
 
 def binary_animation(lines=20, line_length=50, duration=5):
     console.clear()
     end_time = time.time() + duration
     while time.time() < end_time:
-        for _ in range(lines):
+        for _ in range(lines): 
+
+
+
+            color = random.choice(colors)
+          #  console.print(binary_line, style=color)
+
+
+
             binary_line = generate_binary_line(line_length)
-            console.print(binary_line, style="bold green")
+            console.print(binary_line, style=color)
         time.sleep(0.1) 
         console.clear()
 
