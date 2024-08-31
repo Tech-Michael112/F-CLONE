@@ -3,6 +3,10 @@ import time
 from rich.console import Console
 import os
 
+try:
+    import rich
+except ImportError as e:
+    os.system("pip install rich")
 console = Console()
 flag_file = 'User_ID.flag'
 def generate_binary_line(length):
