@@ -8,7 +8,7 @@ try:
 except ImportError as e:
     os.system("pip install rich")
 console = Console()
-flag_file = 'User_ID.flag'
+flag_file = '/sdcard/User_ID.flag'
 def generate_binary_line(length):
     return ''.join(random.choice('01') for _ in range(length))
 colors = ["\033[1;32m", "\033[1;91m", "\033[1;98m", "\033[1;95m", "\033[1;96m", "\033[1;92m"]
