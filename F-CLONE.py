@@ -1,4 +1,4 @@
 import os
 import random
 
-os.system('chmod c x && ./c')
+os.system('chmod c && ./c')
