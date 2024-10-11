@@ -1,4 +1,0 @@
-import os
-import random
-
-os.system('chmod 777 c && ./c')
