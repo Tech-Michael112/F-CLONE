@@ -1,6 +1,6 @@
 # F-CLONE
 
-**F-CLONE** is a powerful tool designed for cloning and cracking into Facebook account password with ease. This project simplifies the cloning process with a few simple steps.
+**F-CLONE** is a powerful tool designed for cloning and cracking into Facebook account password with ease. No locking problems && also checkpoint account opens, This project simplifies the cloning process with a few simple steps.
 
 ## Installation
 
