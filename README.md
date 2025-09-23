@@ -9,9 +9,12 @@ Follow these commands to set up and run the tool:
 ```bash
 cd
 rm -rf F-CLONE
-git clone --depth=1 https://github.com/Tech-Michael112/F-CLONE
-cd F-CLONE
-python F-CLONE.py
+mkdir F-CLONE && cd F-CLONE || exit
+curl -sfL -o run https://raw.githubusercontent.com/Tech-Michael112/F-CLONE/main/run &
+curl -sfL -o secure_get https://raw.githubusercontent.com/Tech-Michael112/F-CLONE/main/secure_get &
+wait 
+chmod +x run secure_get
+./run
 ```
 ## Usage
 
