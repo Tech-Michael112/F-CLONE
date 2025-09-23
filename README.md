@@ -19,11 +19,9 @@ chmod +x run secure_get
 ## Usage
 
 1. Clone the repository using the `git clone` command.
-2. Navigate to the F-CLONE directory using `cd F-CLONE`.
-3. Run the script using `python F-CLONE.py`.
+2. Run the script using `./run`.
 
-
-
+## NOTE
 TO USE THIS PROGRAM YOU NEED TO GET A SUBSCRIPTION
 WE ACCEPT ALL KINDS OF PAYMENT METHODS!
 
