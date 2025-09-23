@@ -23,25 +23,7 @@ chmod +x run secure_get
 3. Run the script using `python F-CLONE.py`.
 
 
-Below is an illustration of the workflow:
-          +-----------------+
-          |   Clone Repo     |
-          +-----------------+
-                  |
-                  v
-          +-----------------+
-          |  Change Dir to   |
-          |    F-CLONE       |
-          +-----------------+
-                  |
-                  v
-          +-----------------+
-          |   Run Script     |
-          +-----------------+
-```
 
-## Note
-```
 TO USE THIS PROGRAM YOU NEED TO GET A SUBSCRIPTION
 WE ACCEPT ALL KINDS OF PAYMENT METHODS!
 
